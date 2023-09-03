@@ -107,6 +107,7 @@ body {
   text-transform: uppercase;
 }
 .menu-list {
+  position: relative;
   display: flex;
   gap: 40px;
   justify-content: space-between;
@@ -348,7 +349,6 @@ text-align: center;
   background-color: #404bbf;
 }
 .socials-svg{
-
 
 }
 /* Portfolio */
