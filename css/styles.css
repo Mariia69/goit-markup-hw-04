@@ -130,10 +130,7 @@ body {
   border-radius: 2px;
   background: #404bbf;
 }
-.current:focus,
-.current:hover{
-   color: #404bbf;
-}
+
 .menu-item {
   color: #2e2f42;
   font-family: "Roboto" sans-serif;
