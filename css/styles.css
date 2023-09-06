@@ -353,6 +353,8 @@ text-align: center;
   background-color: #404bbf;
 }
 .socials-svg{
+  width: 16px;
+  height: 16px;
   fill: #f4f4fd;
 
 }
