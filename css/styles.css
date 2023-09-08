@@ -507,7 +507,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   height: 40px;
   transition: backgroynd-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-item-social:hover .list-social{
+.list-social:hover .list-social{
   background-color: #4d5ae5;
 }
 .list-social{
