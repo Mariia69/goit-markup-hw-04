@@ -353,7 +353,7 @@ text-align: center;
         justify-content: center;
         border-radius: 50%;
   background-color: #4D5AE5;}
-.socials-team-link:hover
+.socials-team-link:hover,
 .socials-team-link:focus{
 background-color: #404bbf;
 }
@@ -390,20 +390,22 @@ background-color: #404bbf;
   row-gap: 48px;
 }
 .portfolio-list {
+  border: 1px solid #F4F4FD;
+background: #FFF;
   border-radius: 0px 0px 4px 4px;
   background: #fff;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-  0px 1px 1px rgba(46, 47, 66, 0.16),
-  0px 2px 1px rgba(46, 47, 66, 0.08);
   width: calc((100 - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portfolio-list:hover{
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-list:hover .overlay{
   transform: translateY(0%);
   
 }
-.container-our-portfolio{
+.porfolio-box-overlay{
   position: relative;
 overflow:hidden;
 }
